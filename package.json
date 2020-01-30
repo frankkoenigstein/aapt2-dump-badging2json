@@ -1,0 +1,33 @@
+{
+  "name": "aapt2-dump-badging2json",
+  "version": "0.1.0",
+  "description": "convert aapt2 dump badging to json",
+  "main": "dist/index.js",
+  "scripts": {
+    "prebuild": "prettier --check \"**/*.{ts,js,css,html,scss}\" && npm run lint && npm test",
+    "build": "rimraf dist && tsc",
+    "lint": "tslint -p . -c tslint.json 'src/**/*.ts'",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "aapt2",
+    "dump",
+    "badging",
+    "json"
+  ],
+  "author": "frankkoenigstein",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^25.1.0",
+    "@types/node": "^13.5.0",
+    "jest": "^25.1.0",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.1",
+    "ts-jest": "^25.0.0",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.7.5"
+  }
+}
