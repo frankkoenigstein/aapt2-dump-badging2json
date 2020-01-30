@@ -14,7 +14,7 @@
 
 ## v0.1.1
 
-- docs(README): fix typo
+- docs(README): add workflow status badges
 
 ## v0.1.0
 
