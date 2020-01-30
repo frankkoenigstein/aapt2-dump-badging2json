@@ -3,6 +3,9 @@
   "version": "0.1.1",
   "description": "convert aapt2 dump badging to json",
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prebuild": "prettier --check \"**/*.{ts,js,css,html,scss}\" && npm run lint && npm test",
     "build": "rimraf dist && tsc",
