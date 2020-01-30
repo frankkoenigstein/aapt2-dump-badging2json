@@ -2,6 +2,9 @@
 
 Parses `stdout` from [AAPT2 Dump] `badging` to `JSON`.
 
+![Node.js CI](https://github.com/frankkoenigstein/aapt2-dump-badging2json/workflows/Node.js%20CI/badge.svg)
+![NPM Publish](https://github.com/frankkoenigstein/aapt2-dump-badging2json/workflows/NPM%20Publish/badge.svg)
+
 [![NPM](https://nodei.co/npm/aapt2-dump-badging2json.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/aapt2-dump-badging2json/)
 
 <details>
