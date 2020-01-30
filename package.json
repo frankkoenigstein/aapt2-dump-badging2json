@@ -10,6 +10,7 @@
     "prebuild": "prettier --check \"**/*.{ts,js,css,html,scss}\" && npm run lint && npm test",
     "build": "rimraf dist && tsc",
     "lint": "tslint -p . -c tslint.json 'src/**/*.ts'",
+    "prepublish": "npm run build",
     "test": "jest",
     "test:watch": "jest --watch"
   },
